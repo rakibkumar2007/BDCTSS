@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #21315f;
+}
+
+.navbar{
+    height: 30px;
+}
+
+.logo{
+    color: white;
+    font-family: fantasy
+}
+
+.option{
+
+}
+
+.list{
+        display: flex;
+    
+    list-style: none;
+    padding-top: 17px;
+}
+
+
+
+.list li{
+    margin: 10px;
+}
+
+.list li a{
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.list li a:hover{
+    color: yellow;
+}
+
+.banner-section {
+ background-color: darkcyan; 
+    height: 500px;
+  
+}
+
+.nopad{
+      margin: 0;
+    padding: 0;
+}
+
+.icon img{
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.start{
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+}
+
+.star{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.star:before{
+    content:"----------";
+    color: white;
+    font-size: 30px;
+}
+
+.star:after{
+    content:"----------";
+    color: white;
+    font-size: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.portfoilo{
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.portfolio-art{
+    margin-top: 100px;
+}
+.portfolio-art h3 {
+   font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.star-1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.star-1:before{
+    content:"----------";
+    color: black;
+    font-size: 30px;
+}
+
+.star-1:after{
+    content:"----------";
+    color: black;
+    font-size: 30px;
+}
+
+.item-1{
+    height: 250px;
+    width: 250px;
+    line-height: 50px;
+    display: block;
+    background-color: firebrick;
+    justify-content: center; 
+}
+
+.item-1 img{
+    position: absolute;
+    transform: translateX(-50)
+}
+
